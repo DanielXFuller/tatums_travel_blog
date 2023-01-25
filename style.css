@@ -6,11 +6,15 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
-    background-color: rgb(177, 229, 238);
+    background-color: rgb(98, 101, 102);
 }
 
 article {
-    background: linear-gradient(to bottom, #dceff8, #5fe4fc)
+    background: linear-gradient(to bottom, #dceff8, #5fe4fc);
+    border: 2px solid lightseagreen;
+    border-radius: 0.75em;
+    padding: 2px;
+    box-shadow: 8px 8px 8px darkblue;
 }
 
 header {
@@ -18,6 +22,27 @@ header {
     background-image: url("https://images.unsplash.com/photo-1470125634816-ede3f51bbb42?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3Vuc2V0JTIwcGFub3JhbWF8ZW58MHx8MHx8&w=1000&q=80");
     background-size: cover;
     background-repeat: no-repeat;
+    border-radius: 0.75em;
+    padding: 30px;
+    text-shadow: 5px 5px 5px darkblue;
+    box-shadow: 8px 8px 8px darkblue;
+}
+
+img {
+    height: 20%;
+    display: block;
+    float: left;
+    margin-right: 20px;
+    border: 2px solid lightseagreen;
+    border-radius: 0.75em;
+}
+
+p {
+    overflow: hidden;
+}
+
+.subheading {
+    border-bottom: 2px solid black;
 }
 
 /* link styles */
